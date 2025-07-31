@@ -120,13 +120,13 @@ No firework macing
 
 **3rd offense:** `Perm ban (unappealable)`
 
-⚫️ **Includes the Rules:**
+⚫️ __**Includes the Rules:**__
 
-**Rule 4:** `Intentional doxxing.`
+**Rule 4:** Intentional doxxing.
 
-**Rule 9:** `Hacking/exploits.`
+**Rule 9:** Hacking/exploits.
 
-**Rule 14:** `IRL Trading.`
+**Rule 14:** IRL Trading.
 
 ## Warnings limit
 If you are given 6 warnings in total you will be perma banned with the ability to appeal.
