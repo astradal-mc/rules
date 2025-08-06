@@ -3,6 +3,73 @@
 _These rules are automatically generated from `rules.json`._
 
 
+## General Rules
+
+
+### 1. No Sexual Content
+
+**Severity:** `Default`
+
+
+Sexual topics and media are strictly forbidden. All adult conversations must be kept away from the server. NSFW material is not allowed on Astradal servers.
+
+
+### 2. No Harassment or Bullying
+
+**Severity:** `Default`
+
+
+Do not threaten or commit real life harm to others. Do not tell people to harm themselves. Do not host or promote players that do.
+
+
+### 3. No Bigotry
+
+**Severity:** `Default`
+
+
+No hateful language or viewpoints. This includes homophobia, racism, transphobia, sexism, antisemitism, ableism, or heterophobia. Slurs are not allowed.
+
+
+### 4. No Posting Personally Identifiable Information
+
+**Severity:** `Severe`
+
+
+Do not reveal personal info such as addresses or phone numbers. No doxxing or self-doxxing.
+
+
+### 5. No Promoting Other Servers
+
+**Severity:** `Default`
+
+
+Do not post links or IPs to unrelated Discord or Minecraft servers. Discussion is allowed without promotion. No self-promotion unrelated to the server.
+
+
+### 6. No Impersonation
+
+**Severity:** `Default`
+
+
+Do not impersonate staff or other players.
+
+
+### 7. No Conspiracy to Break Rules
+
+**Severity:** `Default`
+
+
+Do not aid or abet rulebreakers. Do not spread dupes, exploits, or schemes like theft muling, etc.
+
+
+### 8. English Only
+
+**Severity:** `Default`
+
+
+Only English is allowed in chat so moderation can be maintained.
+
+
 ## Gameplay Rules
 
 
@@ -11,7 +78,7 @@ _These rules are automatically generated from `rules.json`._
 **Severity:** `Severe`
 
 
-No hacks, cheats, mods, or exploits. Review allowed mods list. No alt account abuse. INVENTORY WILL BE WIPED IF CAUGHT.
+Do not hack, cheat, or exploit. Review allowed mods list. No alt account abuse. INVENTORY WILL BE WIPED IF CAUGHT.
 
 
 ### 10. No Real-Life Iconography
@@ -76,73 +143,6 @@ No invasive, snake, or block claiming, etc.
 
 
 Avoid discussing real-life politics or religion to prevent drama.
-
-
-## General Rules
-
-
-### 1. No Sexual Content
-
-**Severity:** `Default`
-
-
-Sexual topics and media are strictly forbidden. All adult conversations must be kept away from the server. NSFW material is not allowed on Astradal servers.
-
-
-### 2. No Harassment or Bullying
-
-**Severity:** `Default`
-
-
-Do not threaten or commit real life harm to others. Do not host or promote players that do. Do not tell people to harm themselves.
-
-
-### 3. No Bigotry
-
-**Severity:** `Default`
-
-
-No hateful language or viewpoints. This includes homophobia, racism, transphobia, sexism, antisemitism, ableism, or heterophobia. Slurs are not allowed.
-
-
-### 4. No Posting Personally Identifiable Information
-
-**Severity:** `Severe`
-
-
-Do not reveal personal info such as addresses or phone numbers. No doxxing or self-doxxing.
-
-
-### 5. No Promoting Other Servers
-
-**Severity:** `Default`
-
-
-Do not post links or IPs to unrelated Discord or Minecraft servers. Discussion is allowed without promotion. No self-promotion unrelated to the server.
-
-
-### 6. No Impersonation
-
-**Severity:** `Default`
-
-
-Do not impersonate staff or other players.
-
-
-### 7. No Conspiracy to Break Rules
-
-**Severity:** `Default`
-
-
-Do not aid or abet rulebreakers. Do not spread dupes, exploits, or schemes like theft muling, etc.
-
-
-### 8. English Only
-
-**Severity:** `Default`
-
-
-Only English is allowed in chat so moderation can be maintained.
 
 
 ---
