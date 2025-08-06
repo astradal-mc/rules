@@ -5,17 +5,23 @@ from collections import defaultdict
 with open("rules.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
+# Preserve the order categories appear in the JSON
+category_order = []
 rules_by_category = defaultdict(list)
+
 for rule in data["rules"]:
-    rules_by_category[rule["category"]].append(rule)
+    category = rule["category"]
+    if category not in category_order:
+        category_order.append(category)
+    rules_by_category[category].append(rule)
 
 # Build README content
 lines = []
 lines.append("# Astradal Rules\n")
 lines.append("_These rules are automatically generated from `rules.json`._\n\n")
 
-# Render rules grouped by category
-for category in sorted(rules_by_category.keys()):
+# Use category_order instead of sorted keys
+for category in category_order:
     lines.append(f"## {category} Rules\n\n")
     for rule in sorted(rules_by_category[category], key=lambda r: r["id"]):
         severity = rule["severity"].capitalize()
