@@ -11,7 +11,7 @@
       "id": 2,
       "category": "General",
       "title": "No Harassment or Bullying",
-      "description": "Do not threaten or commit real life harm to others. Do not host or promote players that do. Do not tell people to harm themselves.",
+      "description": "Do not threaten or commit real life harm to others. Do not tell people to harm themselves. Do not host or promote players that do.",
       "severity": "default"
     },
     {
@@ -60,7 +60,7 @@
       "id": 9,
       "category": "Gameplay",
       "title": "No Hacking, Cheating, or Exploiting",
-      "description": "No hacks, cheats, mods, or exploits. Review allowed mods list. No alt account abuse. INVENTORY WILL BE WIPED IF CAUGHT.",
+      "description": "Do not hack, cheat, or exploit. Review allowed mods list. No alt account abuse. INVENTORY WILL BE WIPED IF CAUGHT.",
       "severity": "severe"
     },
     {
