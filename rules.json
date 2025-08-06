@@ -74,7 +74,7 @@
       "id": 11,
       "category": "Gameplay",
       "title": "No Auto-Farms or Infinite Redstone Machines",
-      "description": "Except for reasonable auto-smelters, auto-brewers, and auto-honey-farms.",
+      "description": "Except for reasonable auto-smelters, auto-brewers, and auto-honey-farms. All autofarms that are allowed",
       "severity": "default"
     },
     {
@@ -102,7 +102,7 @@
       "id": 15,
       "category": "Gameplay",
       "title": "No Unjust or Random Killing",
-      "description": "Only kill with valid reason (e.g., KOS, self-defense, war, events). Victims of RDM get their items back.",
+      "description": "No killing players without reasonable causes, such as: KOS (Kill On Sight), Self-Defense, Griefer/Raiders, War, Events, etc. Those who are killed without reasonable cause get their stuff back.",
       "severity": "default"
     },
     {
