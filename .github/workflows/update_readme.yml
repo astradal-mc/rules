@@ -25,9 +25,13 @@ jobs:
         run: python update_readme.py
 
       - name: Commit and push changes
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "astradal-bot"
+          git config user.email "bot@astradal.org"
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/astradal-mc/rules.git
           git add README.md
           git commit -m "Auto-update README from rules.json" || echo "No changes to commit"
-          git push
+          git push origin main
+
