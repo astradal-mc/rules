@@ -1,0 +1,150 @@
+{
+  "rules": [
+    {
+      "id": 1,
+      "category": "General",
+      "title": "No Sexual Content",
+      "description": "Sexual topics and media are strictly forbidden. All adult conversations must be kept away from the server. NSFW material is not allowed on Astradal servers.",
+      "severity": "default"
+    },
+    {
+      "id": 2,
+      "category": "General",
+      "title": "No Harassment or Bullying",
+      "description": "Do not threaten or commit real life harm to others. Do not host or promote players that do. Do not tell people to harm themselves.",
+      "severity": "default"
+    },
+    {
+      "id": 3,
+      "category": "General",
+      "title": "No Bigotry",
+      "description": "No hateful language or viewpoints. This includes homophobia, racism, transphobia, sexism, antisemitism, ableism, or heterophobia. Slurs are not allowed.",
+      "severity": "default"
+    },
+    {
+      "id": 4,
+      "category": "General",
+      "title": "No Posting Personally Identifiable Information",
+      "description": "Do not reveal personal info such as addresses or phone numbers. No doxxing or self-doxxing.",
+      "severity": "severe"
+    },
+    {
+      "id": 5,
+      "category": "General",
+      "title": "No Promoting Other Servers",
+      "description": "Do not post links or IPs to unrelated Discord or Minecraft servers. Discussion is allowed without promotion. No self-promotion unrelated to the server.",
+      "severity": "default"
+    },
+    {
+      "id": 6,
+      "category": "General",
+      "title": "No Impersonation",
+      "description": "Do not impersonate staff or other players.",
+      "severity": "default"
+    },
+    {
+      "id": 7,
+      "category": "General",
+      "title": "No Conspiracy to Break Rules",
+      "description": "Do not aid or abet rulebreakers. Do not spread dupes, exploits, or schemes like theft muling.",
+      "severity": "default"
+    },
+    {
+      "id": 8,
+      "category": "General",
+      "title": "English Only",
+      "description": "Only English is allowed in chat so moderation can be maintained.",
+      "severity": "default"
+    },
+    {
+      "id": 9,
+      "category": "Gameplay",
+      "title": "No Hacking, Cheating, or Exploiting",
+      "description": "No hacks, cheats, mods, or exploits. Review allowed mods list. No alt account abuse. INVENTORY WILL BE WIPED IF CAUGHT.",
+      "severity": "severe"
+    },
+    {
+      "id": 10,
+      "category": "Gameplay",
+      "title": "No Real-Life Iconography",
+      "description": "No roleplaying with real-world names, symbols, ideologies, or references, especially genocidal or inappropriate ones.",
+      "severity": "default"
+    },
+    {
+      "id": 11,
+      "category": "Gameplay",
+      "title": "No Auto-Farms or Infinite Redstone Machines",
+      "description": "Except for reasonable auto-smelters, auto-brewers, and auto-honey-farms.",
+      "severity": "default"
+    },
+    {
+      "id": 12,
+      "category": "Gameplay",
+      "title": "No Inescapable Traps",
+      "description": "Do not create traps that are impossible to escape. Examples include nether portal traps, elder guardian traps, and cobweb dispensers.",
+      "severity": "default"
+    },
+    {
+      "id": 13,
+      "category": "Gameplay",
+      "title": "No Excessive or Unfair Scamming",
+      "description": "Do not steal from land members or abuse plugins to scam. No scamming new/returning players or using false enchantments.",
+      "severity": "default"
+    },
+    {
+      "id": 14,
+      "category": "Gameplay",
+      "title": "No IRL Trading",
+      "description": "No trading IRL money for in-game benefits.",
+      "severity": "severe"
+    },
+    {
+      "id": 15,
+      "category": "Gameplay",
+      "title": "No Unjust or Random Killing",
+      "description": "Only kill with valid reason (e.g., KOS, self-defense, war, events). Victims of RDM get their items back.",
+      "severity": "default"
+    },
+    {
+      "id": 16,
+      "category": "Gameplay",
+      "title": "No Meta-Gaming with Claims",
+      "description": "No invasive, snake, or block claiming. No firework macing.",
+      "severity": "default"
+    },
+    {
+      "id": 17,
+      "category": "Gameplay",
+      "title": "No IRL Politics or Religion",
+      "description": "Avoid discussing real-life politics or religion to prevent drama.",
+      "severity": "default"
+    }
+  ],
+  "punishments": {
+    "default": [
+      "Warn",
+      "3 hour mute",
+      "3 day ban",
+      "7 day ban",
+      "Permanent ban",
+      "Permanent ban (unappealable)"
+    ],
+    "gameplay": [
+      "Warn",
+      "3 day ban",
+      "7 day ban",
+      "Permanent ban",
+      "Permanent ban (unappealable)"
+    ],
+    "severe": [
+      "7 day ban",
+      "Permanent ban",
+      "Permanent ban (unappealable)"
+    ]
+  },
+  "warningLimits": {
+    "maxWarnings": 6,
+    "consequence": "Permanent ban (appealable)",
+    "afterAppealBan": "Permanent ban (unappealable)"
+  }
+}
