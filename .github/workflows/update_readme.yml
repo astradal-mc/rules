@@ -10,28 +10,31 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Clone repository manually with PAT
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git clone https://x-access-token:${GH_PAT}@github.com/astradal-mc/rules.git
+          cd rules
+          echo "Cloned repo with PAT"
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt || true  # Only if needed
-
       - name: Run script to update README
-        run: python update_readme.py
+        run: |
+          cd rules
+          python update_readme.py
 
       - name: Commit and push changes
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
+          cd rules
           git config user.name "astradal-bot"
           git config user.email "bot@astradal.org"
-          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/astradal-mc/rules.git
           git add README.md
           git commit -m "Auto-update README from rules.json" || echo "No changes to commit"
           git push origin main
-
