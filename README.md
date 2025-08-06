@@ -71,7 +71,7 @@ Scamming and coercing new or returning players is not allowed. This includes tri
 **IRL Trading is not allowed.**
 > This includes exchanging IRL money for in-game benefits of any kind.
  
-# Rule 15
+## Rule 15
 **No Unjust or Random Killing.**
 > No killing players without reasonable causes.
 Reasonable killing would include (but not limited to): KOS (Kill On Sight), Self-Defense, Griefer/Raiders, War, Events, etc. Those who are killed without reasonable cause get their stuff back.
