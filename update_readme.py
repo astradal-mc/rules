@@ -45,7 +45,7 @@ lines.append("---\n")
 lines.append("## Global Warning Policy\n\n")
 lines.append(f"- Maximum warnings before punishment: **{limits['maxWarnings']}**")
 lines.append(f"- Consequence after max warnings: **{limits['consequence']}**")
-lines.append(f"- After appeal ban: **{limits['afterAppealBan']}**\n")
+lines.append(f"- After appeal ban: **{limits['otherwise']}**\n")
 
 # Write to README.md
 with open("README.md", "w", encoding="utf-8") as f:
