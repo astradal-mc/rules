@@ -91,7 +91,7 @@ No roleplaying with real-world names, symbols, ideologies, or references, especi
 
 ### 11. No Auto-Farms or Infinite Redstone Machines
 
-**Severity:** `Default`
+**Severity:** `Gameplay`
 
 
 Except for reasonable auto-smelters, auto-brewers, and auto-honey-farms. All autofarms that are allowed
@@ -99,7 +99,7 @@ Except for reasonable auto-smelters, auto-brewers, and auto-honey-farms. All aut
 
 ### 12. No Inescapable Traps
 
-**Severity:** `Default`
+**Severity:** `Gameplay`
 
 
 Do not create traps that are impossible to escape. Examples include nether portal traps, elder guardian traps, and cobweb dispensers.
@@ -123,7 +123,7 @@ No trading IRL money for in-game benefits.
 
 ### 15. No Unjust or Random Killing
 
-**Severity:** `Default`
+**Severity:** `Gameplay`
 
 
 No killing players without reasonable causes, such as: KOS (Kill On Sight), Self-Defense, Griefer/Raiders, War, Events, etc. Those who are killed without reasonable cause get their stuff back.
@@ -131,7 +131,7 @@ No killing players without reasonable causes, such as: KOS (Kill On Sight), Self
 
 ### 16. No Meta-Gaming with Claims
 
-**Severity:** `Default`
+**Severity:** `Gameplay`
 
 
 No invasive, snake, or block claiming, etc.
