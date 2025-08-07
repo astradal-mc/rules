@@ -145,6 +145,6 @@
   "warningLimits": {
     "maxWarnings": 6,
     "consequence": "Permanent ban (appealable)",
-    "afterAppealBan": "Permanent ban (unappealable)"
+    "otherwise": "Permanent ban (unappealable)"
   }
 }
