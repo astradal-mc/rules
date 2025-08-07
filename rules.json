@@ -75,14 +75,14 @@
       "category": "Gameplay",
       "title": "No Auto-Farms or Infinite Redstone Machines",
       "description": "Except for reasonable auto-smelters, auto-brewers, and auto-honey-farms. All autofarms that are allowed",
-      "severity": "default"
+      "severity": "gameplay"
     },
     {
       "id": 12,
       "category": "Gameplay",
       "title": "No Inescapable Traps",
       "description": "Do not create traps that are impossible to escape. Examples include nether portal traps, elder guardian traps, and cobweb dispensers.",
-      "severity": "default"
+      "severity": "gameplay"
     },
     {
       "id": 13,
@@ -103,14 +103,14 @@
       "category": "Gameplay",
       "title": "No Unjust or Random Killing",
       "description": "No killing players without reasonable causes, such as: KOS (Kill On Sight), Self-Defense, Griefer/Raiders, War, Events, etc. Those who are killed without reasonable cause get their stuff back.",
-      "severity": "default"
+      "severity": "gameplay"
     },
     {
       "id": 16,
       "category": "Gameplay",
       "title": "No Meta-Gaming with Claims",
       "description": "No invasive, snake, or block claiming, etc.",
-      "severity": "default"
+      "severity": "gameplay"
     },
     {
       "id": 17,
