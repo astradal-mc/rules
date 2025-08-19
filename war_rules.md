@@ -67,7 +67,7 @@ To ensure balanced and fair combat, the following item restrictions apply to all
     * Punch II+ on bows
     * Any item with extremely high, non-vanilla enchantments (e.g., a "Knockback X Stick").
 * **Restricted Items:**
-    * **Mace:** A maximum of **one (1)** mace user is allowed for every five (5) members of a team. (1-5 players = 1 mace, 6-10 players = 2 maces, etc.). The mace may not have enchantments greater than **Density I** and **Breach I**.
+    * **Mace:** A maximum of **one (1)** mace user is allowed for every five (5) members of a team. (1-5 players = 1 mace, 6-10 players = 2 maces, etc.). The mace may not have enchantments greater than **Density 3** or **Breach 3**.
     * **Enchanted Golden Apples:** A maximum of **sixteen (16)** per player. You may not carry more than 16 in your inventory at any time. Regular Golden Apples are not restricted.
     * **Experience Bottles:** A maximum of **three (3) stacks** per player, for the purpose of mending gear.
 
