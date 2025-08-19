@@ -2,7 +2,7 @@ import json
 from collections import defaultdict
 
 # Load rules.json
-with open("rules.json", "r", encoding="utf-8") as f:
+with open("../main/rules.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # Preserve the order categories appear in the JSON
