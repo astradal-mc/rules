@@ -26,7 +26,7 @@ jobs:
       - name: Run script to update README
         run: |
           cd rules
-          python update_readme.py
+          python .scripts/update_readme.py
 
       - name: Commit and push changes
         env:
