@@ -2,7 +2,7 @@ import json
 from collections import defaultdict
 
 # Load rules.json
-with open("../main/rules.json", "r", encoding="utf-8") as f:
+with open("main/rules.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # Preserve the order categories appear in the JSON
@@ -48,7 +48,7 @@ lines.append(f"- Consequence after max warnings: **{limits['consequence']}**")
 lines.append(f"- After appeal ban: **{limits['otherwise']}**\n")
 
 # Write to README.md
-with open("../README.md", "w", encoding="utf-8") as f:
+with open("README.md", "w", encoding="utf-8") as f:
     f.write("\n".join(lines))
 
 print("README.md updated successfully.")
