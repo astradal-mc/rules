@@ -63,8 +63,6 @@ To ensure balanced and fair combat, the following item restrictions apply to all
 * **Prohibited Consumables:**
     * Tipped Arrows (of any kind)
 * **Prohibited Enchantments:**
-    * Knockback II+ on swords
-    * Punch II+ on bows
     * Any item with extremely high, non-vanilla enchantments (e.g., a "Knockback X Stick").
 * **Restricted Items:**
     * **Mace:** A maximum of **one (1)** mace user is allowed for every five (5) members of a team. (1-5 players = 1 mace, 6-10 players = 2 maces, etc.). The mace may not have enchantments greater than **Density 3** or **Breach 3**.
