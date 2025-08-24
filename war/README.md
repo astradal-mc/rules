@@ -114,6 +114,7 @@ After the conclusion of a war, a mandatory **two-week (14 day)** truce is enacte
 - **Animosity** - Long-standing rivalry or unresolved grudges.
 - **Ideology** - Spread or defend political, religious, or cultural beliefs.
 - **Despoliation** - Plundering wealth and resources rather than annexing territory.
+   > Requires the town to have babaric culture in lore, which forbids alliances, and being part of a nation. This is because the town is uncivilized, and cannot be reasoned with for diplomacy.
 - **Claim the Elytra** - Special, rare objective where the prize is a unique item or title.
 - **Money/Loot** - War fought purely for economic gain.
 - **Trade Points** - Control of trade hubs or port towns.
