@@ -1,71 +1,62 @@
-**Forward**
-Have a question, concern, or thought? PLEASE message me about it. Tell me things, I'm here to get things done and make sure you guys are having a good time.
+# Astradal Staff Protocol
 
-# General Expectations
+## I. General Expectations
+> We value staff who play the game, but your staff powers must never influence your player experience
+1. **The Nomad Clause:** Staff may play as normal players, but Admins and Game Masters are strictly forbidden from holding leadership positions (King, Mayor, General, or whatever your town uses) in any faction.
+2.  **Zero-Intel Leaking:** Sharing coordinates, player wealth, or faction plans obtained via staff powers is a **permanent ban offense.**
+3.  **Metagaming:** You must not use staff tools (like `/invsee` or Spectator mode) to gain knowledge for your own faction's benefit.
+4.  **Activity Metrics:** If you are inactive for more than 14 days without notice, you will be moved to an "inactive" status.
 
-`1.` Act on your best behavior, and be a guiding example players.
-- You are expected to be polite, professional, welcoming, and helpful.
-- You are expected to abstain from toxic behavior like insults, and passive-aggressiveness.
+--- 
 
-`2.` Do not to use staff powers to gain any advantages.
-- If you use your powers to cheat, you will be either permanently banished from the staff team, or banned altogether from the server.
-- No metagaming
+## II. Internal Oversight & Transparency
+- **Private Command Logging**: A real-time feed of high-risk commands (/tp, /invsee, /gamemode, etc.) is piped to a private **Admin+** channel. This is used for personnel management and to ensure no "Staff-to-Player" cheating occurs.
+- **Outcome Transparency:** While internal logs are private, all final disciplinary actions (bans, faction strikes, rollbacks) must be summarized in the public #server-logs.
+- **The Audit on Request Policy**: If a player provides reasonable suspicion of staff abuse, an Admin or Owner will manually audit the private logs and provide a formal statement on the findings.
 
-`3.` Be impartial, and objective towards everyone.
-- Even regardless of their punishment history. You may not witch hunt players.
-- Do not give preferential treatment to any players, especially allies and friends. You must hold them to the same rules and standards.
+--- 
 
-`4.` Be active.
-- We will not allow staff members to hold roles without fulfilling them, especially if other players want to fill those positions.
+## III. Role Definitions
 
-`5.` Do not leak staff information to players.
-- Sharing information about server lore, server events, internal documents or chats with players is prohibited.
-- Player punishments are considered to be between the offending player and the staff team, and may not be discussed with other players.
+### 1. Helper
+- **Scope:** First responders for new players.
+- **Duties:** Answer questions, explain server mechanics, and report rule-breakers to Moderators.
+- **Limit:** Helpers do not have ban powers. They are the "customer service" of Astradal.
 
-# Administration
-`1.` Ensure all other departments are operating smoothly, and working with each other smoothly.
-- Handle staff who aren't meeting expectations
-- Handle staff and department conflicts
+### 2. Moderator 
+- **Scope:** Tactical enforcement
+- **Duties:** Enforce written rules, handle grief reports, and monitor chat for toxicity.
+- **The rule of Evidence:** No player may be banned without screenshot or video evidence logged in the moderator staff discord channel.
+- **Constraint:** You cannot invent rules. If a behavior is toxic but not in the rules, report it to an Admin+ to update the "law."
 
-`2.` Administration members are not allowed to participate on the server as players.
-- You may not join nations or lands
-- You may not have a position on any leader board
-- You may join the server on an alt account with no special permissions other than the ability to communicate in staff chat to see when situations arise.
+### 3. Administrator
+- **Scope:** Personnel and policy management.
+- **Duties:**
+  * Audit moderator logs for power abuse.
+  * Vet and train new Helpers
+  * Handle ban appeals and internal staff conflicts
+  * Draft new server rules for the Owner/Co-Owner to approve.
 
-`3.` Ensure players are playing fairly and investigate potential bugs and exploits.
+### 4. Game Master
+- **Scope:** World-building and narrative.
+- **Duties:** Manage lore events, NPC dialogue, design event regions and event rewards.
+- **Constraint:** GMs focus on the world, not the players. They do not handle bans or chat moderation unless no other staff is present.
 
-`4.` Handle ban appeals
+### 5. Owners
+- **Scope:** Final Authority.
+- **Duties:** Executive decision-making, billing, and technical infrastructure.
+- **Final Word:** Owners reserve the right to override any staff decision for the health of the server.
 
-# Moderation Team
+---
 
-`1.` Ensure players in all Discord channels and on the Minecraft Server are adhering to the server rules.
+## IV. Moderation SOPs
+1. **Rule-Gaps:** If a player is doing something problematic that isn't explicitly banned in the rules:
+  - Do not ban. Ask them to stop.
+  - Alert the administration team to evaluate if a rule needs to be added or fixed.
+2. **Streaming:** Staff activity (spectating cheaters, vanish mode) must never be streamed to public platforms (like the discord VC). Staff must not discuss active investigations in public or faction Discord channels.
 
-`2.` Do not punish players for something that isn't written in the rules.
-- You may request they stop the behavior, and then punish them for not listening to staff but only if you request that the behavior get prohibited in the rules 
+--- 
 
-`3.`  Pay attention to chat while online, unless you're in AFK mode.
-- You may not ignore players on the Discord, or in game.
-- You may only be AFK for short periods of time, better to log off if it's gonna be a long time.
-
-**Sensitive staff activity and powers should not be leaked to players. **
-- Never reveal information about player locations or player actions that you obtained with staff powers.
-> This includes streaming staff operations.
-- Never talk about going hunting for cheaters
-> This is specifically to avoid players warning their friends who are cheating, or timing their cheating to avoid you.
-
-**If you are streaming, you must not use spectator or vanish to watch other players, therefore revealing player actions/locations.**
-
-# Build Team
-`1.` Ensure all builds requested by Event team are completed in time for the next event within reason.
-
-`2.` Ensure all builds requested by Administration team are completed.
-
-# Event Team
-`1.` Setup event areas.
-- Ensure event sets are pasted into their proper places in the world.
-- Ensure event areas are protected and are configured properly for events.
-
-`2.` Manage events while they're running.
-- Ensure event areas are opened on time, and are properly functioning.
-- Fix issues found, punish players cheating according to punishment guidelines.
-- Change event information as needed to ensure events are the best they can be
+## V. Technical Resources
+- **Creative Server:** All staff have access to the Astradal Creative Server for testing builds/events.
+- **CoreProtect:** Players may use `/co i` for personal investigations. Staff use `/co l` for deep-dive audits.
