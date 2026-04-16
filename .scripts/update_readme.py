@@ -1,7 +1,7 @@
 import json
 from collections import defaultdict
 
-# Load rules.json
+# Correct path pointing to the main folder
 with open("main/rules.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
@@ -44,10 +44,15 @@ limits = data["warningLimits"]
 lines.append("---\n")
 lines.append("## Global Warning Policy\n\n")
 lines.append(f"- Maximum warnings before punishment: **{limits['maxWarnings']}**")
+
+# Added the expiration check so it renders the new 6-month rule
+if "expiration" in limits:
+    lines.append(f"- Warning Expiration: **{limits['expiration']}**")
+
 lines.append(f"- Consequence after max warnings: **{limits['consequence']}**")
 lines.append(f"- After appeal ban: **{limits['otherwise']}**\n")
 
-# Write to README.md
+# Write to README.md at the root of the repo
 with open("README.md", "w", encoding="utf-8") as f:
     f.write("\n".join(lines))
 
