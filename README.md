@@ -81,20 +81,20 @@ Only English is allowed in chat so moderation can be maintained.
 Do not hack, cheat, or exploit. Review allowed mods list. No alt account abuse. INVENTORY WILL BE WIPED IF CAUGHT.
 
 
-### 10. No Real-Life Iconography
+### 10. Originality & Iconography
 
 **Severity:** `Default`
 
 
-No roleplaying with real-world names, symbols, ideologies, or references, especially genocidal or inappropriate ones.
+Nations and towns must have names unique to Astradal. 1:1 clones of real-world historical or modern states are prohibited. Use history as a springboard, not a script. Any use of iconography associated with real-world hate groups or genocidal regimes is an immediate, unappealable ban.
 
 
-### 11. No Auto-Farms or Infinite Redstone Machines
+### 11. Auto-Farms & Server Performance
 
 **Severity:** `Gameplay`
 
 
-Except for reasonable auto-smelters, auto-brewers, and auto-honey-farms. All autofarms that are allowed
+Auto-farms are permitted provided they do not negatively impact server performance (TPS). Any machine causing lag or utilizing AFK exploits to generate excessive wealth is subject to removal without warning.
 
 
 ### 12. No Inescapable Traps
@@ -126,7 +126,7 @@ No trading IRL money for in-game benefits.
 **Severity:** `Gameplay`
 
 
-No killing players without reasonable causes, such as: KOS (Kill On Sight), Self-Defense, Griefer/Raiders, War, Events, etc. Those who are killed without reasonable cause get their stuff back.
+Killing players without reasonable cause (Self-Defense, War, Events, etc) is prohibited. Random killing (KOS without context) will result in fines or bans.
 
 
 ### 16. No Meta-Gaming with Claims
@@ -134,7 +134,7 @@ No killing players without reasonable causes, such as: KOS (Kill On Sight), Self
 **Severity:** `Gameplay`
 
 
-No invasive, snake, or block claiming, etc.
+No invasive, snake, or block claiming. All claims must be contiguous and maintain a minimum footprint; linear 'snake' claims used to block travel or 'gate' regions are prohibited.
 
 
 ### 17. No IRL Politics or Religion
@@ -142,7 +142,7 @@ No invasive, snake, or block claiming, etc.
 **Severity:** `Default`
 
 
-Avoid discussing real-life politics or religion to prevent drama.
+Avoid discussing real-life politics or religion to prevent drama. Any real-world naming convention or iconography that serves only to incite real-life political or religious debate is a violation of this rule.
 
 
 ---
@@ -153,18 +153,14 @@ Avoid discussing real-life politics or religion to prevent drama.
 ### Default
 
 - Warn
-- 3 hour mute
-- 3 day ban
-- 7 day ban
-- Permanent ban
-- Permanent ban (unappealable)
+- 1 day ban
+- Permanent ban (appealable)
 
 ### Gameplay
 
 - Warn
 - 3 day ban
 - 7 day ban
-- Permanent ban
 - Permanent ban (unappealable)
 
 ### Severe
@@ -178,6 +174,7 @@ Avoid discussing real-life politics or religion to prevent drama.
 ## Global Warning Policy
 
 
-- Maximum warnings before punishment: **6**
+- Maximum warnings before punishment: **3**
+- Warning Expiration: **6 months (Excludes Severe/Severe category violations)**
 - Consequence after max warnings: **Permanent ban (appealable)**
 - After appeal ban: **Permanent ban (unappealable)**
