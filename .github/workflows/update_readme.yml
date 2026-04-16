@@ -3,7 +3,8 @@ name: Update README from rules.json
 on:
   push:
     paths:
-      - 'main/rules.json' # Fixed the trigger path here!
+      - 'main/rules.json'
+  workflow_dispatch:
 
 jobs:
   update-readme:
