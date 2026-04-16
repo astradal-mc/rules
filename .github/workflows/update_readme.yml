@@ -3,20 +3,17 @@ name: Update README from rules.json
 on:
   push:
     paths:
-      - 'rules.json'
+      - 'main/rules.json' # Fixed the trigger path here!
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clone repository manually with PAT
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-        run: |
-          git clone https://x-access-token:${GH_PAT}@github.com/astradal-mc/rules.git
-          cd rules
-          echo "Cloned repo with PAT"
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -24,17 +21,13 @@ jobs:
           python-version: '3.x'
 
       - name: Run script to update README
-        run: |
-          cd rules
-          python .scripts/update_readme.py
+        run: python .scripts/update_readme.py
 
       - name: Commit and push changes
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          cd rules
           git config user.name "astradal-bot"
           git config user.email "bot@astradal.org"
           git add README.md
-          git commit -m "Auto-update README from rules.json" || echo "No changes to commit"
-          git push origin main
+          
+          # Only commit if there are actual changes
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update README from rules.json" && git push)
