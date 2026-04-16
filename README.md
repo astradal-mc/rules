@@ -94,7 +94,7 @@ Nations and towns must have names unique to Astradal. 1:1 clones of real-world h
 **Severity:** `Gameplay`
 
 
-Auto-farms are permitted provided they do not negatively impact server performance (TPS). Any machine causing lag or utilizing AFK exploits to generate excessive wealth is subject to removal without warning.
+Auto-farms are permitted provided they do not negatively impact server performance (TPS). All farms and redstone machines must be entirely enclosed within a completed structure or built underground. No exposed redstone, floating platforms, or open-air mob grinders are allowed. Any machine causing lag or violating enclosure rules is subject to removal without warning.
 
 
 ### 12. No Inescapable Traps
@@ -143,6 +143,14 @@ No invasive, snake, or block claiming. All claims must be contiguous and maintai
 
 
 Avoid discussing real-life politics or religion to prevent drama. Any real-world naming convention or iconography that serves only to incite real-life political or religious debate is a violation of this rule.
+
+
+### 18. World Integrity & Building Standards
+
+**Severity:** `Default`
+
+
+Builds must be cohesive structures. Floating trees, 1x1 nerd poles, offensive pixel art, and abandoned 'cobble monster' griefs are not allowed and will be removed by staff to maintain map quality.
 
 
 ---
