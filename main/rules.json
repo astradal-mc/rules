@@ -66,15 +66,15 @@
     {
       "id": 10,
       "category": "Gameplay",
-      "title": "No Real-Life Iconography",
-      "description": "No roleplaying with real-world names, symbols, ideologies, or references, especially genocidal or inappropriate ones.",
+      "title": "Originality & Iconography",
+      "description": "Nations and towns must have names unique to Astradal. 1:1 clones of real-world historical or modern states are prohibited. Use history as a springboard, not a script. Any use of iconography associated with real-world hate groups or genocidal regimes is an immediate, unappealable ban.",
       "severity": "default"
     },
     {
       "id": 11,
       "category": "Gameplay",
-      "title": "No Auto-Farms or Infinite Redstone Machines",
-      "description": "Except for reasonable auto-smelters, auto-brewers, and auto-honey-farms. All autofarms that are allowed",
+      "title": "Auto-Farms & Server Performance",
+      "description": "Auto-farms are permitted provided they do not negatively impact server performance (TPS). Any machine causing lag or utilizing AFK exploits to generate excessive wealth is subject to removal without warning.",
       "severity": "gameplay"
     },
     {
@@ -102,38 +102,34 @@
       "id": 15,
       "category": "Gameplay",
       "title": "No Unjust or Random Killing",
-      "description": "No killing players without reasonable causes, such as: KOS (Kill On Sight), Self-Defense, Griefer/Raiders, War, Events, etc. Those who are killed without reasonable cause get their stuff back.",
+      "description": "Killing players without reasonable cause (Self-Defense, War, Events, etc) is prohibited. Random killing (KOS without context) will result in fines or bans.",
       "severity": "gameplay"
     },
     {
       "id": 16,
       "category": "Gameplay",
       "title": "No Meta-Gaming with Claims",
-      "description": "No invasive, snake, or block claiming, etc.",
+      "description": "No invasive, snake, or block claiming. All claims must be contiguous and maintain a minimum footprint; linear 'snake' claims used to block travel or 'gate' regions are prohibited.",
       "severity": "gameplay"
     },
     {
       "id": 17,
       "category": "Gameplay",
       "title": "No IRL Politics or Religion",
-      "description": "Avoid discussing real-life politics or religion to prevent drama.",
+      "description": "Avoid discussing real-life politics or religion to prevent drama. Any real-world naming convention or iconography that serves only to incite real-life political or religious debate is a violation of this rule.",
       "severity": "default"
     }
   ],
   "punishments": {
     "default": [
       "Warn",
-      "3 hour mute",
-      "3 day ban",
-      "7 day ban",
-      "Permanent ban",
-      "Permanent ban (unappealable)"
+      "1 day ban",
+      "Permanent ban (appealable)"
     ],
     "gameplay": [
       "Warn",
       "3 day ban",
       "7 day ban",
-      "Permanent ban",
       "Permanent ban (unappealable)"
     ],
     "severe": [
@@ -143,7 +139,8 @@
     ]
   },
   "warningLimits": {
-    "maxWarnings": 6,
+    "maxWarnings": 3,
+    "expiration": "6 months (Excludes Severe/Severe category violations)",
     "consequence": "Permanent ban (appealable)",
     "otherwise": "Permanent ban (unappealable)"
   }
