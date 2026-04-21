@@ -10,12 +10,12 @@
 
 * **Quality of life mods, such as Autoswitch or Shulker Box tooltip.**
 
-* ** HWYLA, Just Enough Items, ETC.**
+* **HWYLA, Just Enough Items, ETC.**
 
 * **Litematica and building assisting mods, including Litematica’s easy place.**
 > However it is not allowed for the purpose of X-raying and/or Spying, this includes any form of exporting the world to a third party database.
 
-* **Mods such as Via or Multiconnect. **
+* **Mods such as Via or Multiconnect.**
 
 * **Chunk Caching mods such as Farsight**
 
@@ -23,4 +23,4 @@
 
 * **Feather Client**
 > However, you are not allowed to use custom fog or disable blindness/darkness/nausea effects
-# Macros are not allowed!
+# Macros & Autoclickers are not allowed!
