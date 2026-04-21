@@ -20,7 +20,7 @@
 
 ### 1. Helper
 - **Scope:** First responders for new players.
-- **Duties:** Answer questions, explain server mechanics, and report rule-breakers to Moderators.
+- **Duties:** Answer questions, explain server mechanics, monitor chat, and report rule-breakers to Moderators or above.
 - **Limit:** Helpers do not have ban powers. They are the "customer service" of Astradal.
 
 ### 2. Moderator 
